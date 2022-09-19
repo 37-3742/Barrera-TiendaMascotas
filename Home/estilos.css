@@ -1,0 +1,510 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: #8b7a7a;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 25px;
+}
+
+div .menu {
+    display: flex;
+    min-height: 50px;
+    background-color: #D9D9D9;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+
+
+}
+
+div .boton-menu {
+    display: flex;
+    min-height: 35px;
+    width: 15%;
+    background-color: #8b7a7a;
+    border-radius: 50px;
+    cursor: pointer;
+    border-color: #8b7a7a;
+    align-items: center;
+
+}
+
+.boton-menu::after {
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 5%;
+    transition: .3s ease-in-out all;
+    border-radius: 100px;
+    transform-origin: center
+}
+
+.boton-menu:hover {
+    background: #807171;
+}
+
+.sesion {
+
+    min-height: 35px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    cursor: pointer;
+    border-color: #D9D9D9;
+
+
+}
+
+.sesion::after {
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 5%;
+    transition: .3s ease-in-out all;
+    border-radius: 100px;
+    transform-origin: center
+}
+
+.sesion:hover {
+    background: #a8a7a7;
+}
+
+div a:hover {
+    color: rgb(10, 9, 9);
+
+
+}
+
+nav a:hover {
+    color: white;
+
+}
+
+.fila1-producto {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+
+.fila2-producto {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.fila3-producto {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.fila-producto {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+
+.flex-container {
+    display: flex;
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    border: 5px solid rgb(90, 80, 80);
+    height: 330px;
+    width: 255px;
+
+}
+
+div .contenedor-imagen {
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: 5px solid rgb(255, 255, 255);
+    height: 190px;
+    width: 236px;
+    margin: 5px;
+    text-align: center;
+}
+
+div.contenedor-info {
+    background-color: #ffffff;
+    border-radius: 50px;
+    height: 105px;
+    width: 245px;
+    margin: 5px;
+
+    text-align: center;
+    font-size: 10px;
+}
+
+.botonera-producto {
+    display: flex;
+    height: 30px;
+    justify-content: space-around
+}
+
+.boton-producto {
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    cursor: pointer;
+    border-color: #D9D9D9;
+
+
+}
+
+.boton-producto::after {
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 5%;
+    transition: .3s ease-in-out all;
+    border-radius: 100px;
+    transform-origin: center
+}
+
+.boton-producto:hover {
+    background: #625757;
+}
+
+.boton-vermas {
+    background-color: #D9D9D9;
+    border-radius: 100px;
+    cursor: pointer;
+    border-color: #D9D9D9;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10%;
+
+
+}
+
+.boton-vermas::after {
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 5%;
+    transition: .3s ease-in-out all;
+    border-radius: 10px;
+    transform-origin: center
+}
+
+.boton-vermas:hover {
+    background: #625757;
+}
+
+.menu-inferior {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.fila4 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    
+}
+
+.container-menu-inf1 {
+    display: flex;
+    background-color: #8b7a7a;
+    border-radius: 50px;
+    cursor: pointer;
+    border-color: #8b7a7a;
+    height: 370px;
+    width: 800px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.container-menu-inf1::after {
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 5%;
+    transition: .3s ease-in-out all;
+    border-radius: 100px;
+    transform-origin: center
+}
+
+.container-menu-inf1:hover {
+    background: #625757;
+}
+
+.comodidadparaellos {
+    display: flex;
+    border-radius: 10%;
+    height: 350px;
+    width: 780px;
+    margin: 10px;
+
+}
+
+.titulocomodidad{
+    display: flex;
+    border-radius: 10%;
+    height: 350px;
+    width: 780px;
+    padding: 15%;;
+}
+
+.container-menu-inf2 {
+    display: flex;
+    background-color: #8b7a7a;
+    border-radius: 50px;
+    cursor: pointer;
+    border-color: #8b7a7a;
+    height: 745px;
+    width: 400px;
+    margin-left: 30px;
+
+
+}
+
+.container-menu-inf2::after {
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 5%;
+    transition: .3s ease-in-out all;
+    border-radius: 100px;
+    transform-origin: center
+}
+
+.container-menu-inf2:hover {
+    background: #625757;
+}
+
+.adopta {
+    display: flex;
+    border-radius: 10%;
+    height: 97%;
+    width: 94%;
+    margin: 10px;
+
+}
+
+.fila5 {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    
+}
+
+.container-menu-inf3 {
+    display: flex;
+    background-color: #8b7a7a;
+    border-radius: 50px;
+    cursor: pointer;
+    border-color: #8b7a7a;
+    height: 350px;
+    width: 350px;
+    margin-top: 3%;
+    
+    
+
+}
+
+.container-menu-inf3::after {
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 5%;
+    transition: .3s ease-in-out all;
+    border-radius: 100px;
+    transform-origin: center
+}
+
+.container-menu-inf3:hover {
+    background: #625757;
+}
+
+.balanceado {
+    display: flex;
+    border-radius: 10%;
+    height: 92%;
+    width: 92%;
+    margin: 5px;
+    margin: 15px;
+
+}
+
+.container-menu-inf4 {
+    display: flex;
+    background-color: #8b7a7a;
+    border-radius: 50px;
+    cursor: pointer;
+    border-color: #8b7a7a;
+    height: 350px;
+    width: 350px;
+    margin-top: 3%;
+
+
+
+}
+
+.container-menu-inf4::after {
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 5%;
+    transition: .3s ease-in-out all;
+    border-radius: 100px;
+    transform-origin: center
+}
+
+.container-menu-inf4:hover {
+    background: #625757;
+}
+
+.juguetes {
+    display: flex;
+    border-radius: 10%;
+    height: 92%;
+    width: 92%;
+    margin: 5px;
+    margin: 15px;
+
+}
+
+
+.footer-style {
+    padding-top: 50px;
+    background-color: #837878;
+}
+
+footer h3 {
+  margin-bottom: 10%;
+    font-weight: 100%;
+}
+.text-center{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    
+}
+
+.boton-contacto {
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+    margin:1%;
+    font-size: small;
+}
+
+.privacidad{
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 35px;    
+    margin-left: 35%;
+}
+.boton-verproductos {
+    background-color: #D9D9D9;
+    border-radius: 100px;
+    cursor: pointer;
+    border-color: #D9D9D9;
+    margin-left: 45%;
+    padding: 20px;
+    text-align: center;
+    
+
+
+}
+
+.boton-verproductos::after {
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 5%;
+    transition: .3s ease-in-out all;
+    border-radius: 10px;
+    transform-origin: center
+}
+
+.boton-verproductos:hover {
+    background: #625757;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

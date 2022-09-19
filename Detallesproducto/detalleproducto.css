@@ -1,0 +1,181 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: #8b7a7a;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 25px;
+}
+
+div .menu {
+    display: flex;
+    min-height: 50px;
+    background-color: #D9D9D9;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+
+
+}
+
+div .boton-menu {
+    display: flex;
+    min-height: 35px;
+    width: 15%;
+    background-color: #8b7a7a;
+    border-radius: 50px;
+    cursor: pointer;
+    border-color: #8b7a7a;
+    align-items: center;
+
+}
+.boton-menu:hover {
+    background: #807171;
+}
+
+.sesion {
+
+    min-height: 35px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    cursor: pointer;
+    border-color: #D9D9D9;
+
+
+}
+
+.sesion:hover {
+    background: #a8a7a7;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    border: 5px solid rgb(90, 80, 80);
+    height: 640px;
+    width: 564px;
+    margin-block: 3%;
+    margin-left: 30%;
+
+}
+
+div .contenedor-imagen {
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: 5px solid rgb(255, 255, 255);
+    height: 290px;
+    width: 540px;
+    margin: 5px;
+    text-align: center;
+}
+
+div.contenedor-info {
+    background-color: #ffffff;
+    border-radius: 50px;
+    height: 300px;
+    width: 550px;
+    margin: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.botonera-producto {
+    display: flex;
+    height: 45px;
+    justify-content: space-around
+}
+
+.boton-producto {
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    cursor: pointer;
+    border-color: #D9D9D9;
+    width: 200px;
+}
+
+.boton-producto:hover {
+    background: #625757;
+}
+
+.boton-vermas:hover {
+    background: #625757;
+}
+
+.footer-style {
+    padding-top: 50px;
+    background-color: #837878;
+}
+
+footer h3 {
+  margin-bottom: 10%;
+    font-weight: 100%;
+}
+.text-center{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    
+}
+
+.boton-contacto {
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+    margin:1%;
+    font-size: small;
+}
+
+.privacidad{
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 35px;    
+    margin-left: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
