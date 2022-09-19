@@ -12,13 +12,13 @@ Tipografía Principal
 
 Paleta de colores : 
 
- 			>> 625757                                
+ 			>> #625757
 
-			>> 9D8F8F 
+			>> #9D8F8F
 
-			>> BCBAB8 
+			>> #BCBAB8
 
-			>> F9F9F9 
+			>> #F9F9F9
 			
 Creación de logo:
     ![logo empresa](./assets/imagenes/logo_tpintegrador.png)
